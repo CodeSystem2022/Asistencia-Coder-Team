@@ -1,20 +1,20 @@
 # Asistencia-Coder-Team
 INTEGRANTES:
 
-Adan Gomez
+- Adan Gomez
 
-Gonzalo Quiroga Sassu
+- Gonzalo Quiroga Sassu
 
-Diego Alvarez
+- Diego Alvarez
 
-Natán Jabie
+- Natán Jabie
 
-Hilda Yolanda Ortiz 
+- Hilda Yolanda Ortiz 
 
-Marcelo Lamas 
+- Marcelo Lamas 
 
-Veronica Cardenas
+- Veronica Cardenas
 
-Martín Nazareno Maya 
+- Martín Nazareno Maya 
 
 

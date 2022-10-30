@@ -138,7 +138,7 @@ print(f'Este es el telefono de: {persona1.nombre} {persona1.telefono}') # Hemos 
 persona3 = Persona('Rogelio', 'Romero', 35789456, 22, 'Teléfono', '2614445557', 'Calle Lopez', 823, 'Manzana', 77, 'Casa', 18, Altura=1.83, Peso=105, CFavorito='Azul', Auto='Citroen', Modelo=2021)
 persona3.mostrar_detalle()
 
-#-------------Alumna: Diego Alvarez-----------------
+#-------------Alumno: Diego Alvarez-----------------
 
 class Persona(): # Esta clase hereda de la clase Object
     def __init__(self, nombre, edad):

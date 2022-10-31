@@ -195,3 +195,21 @@ empleado3 = Empleado('Arnolito', 44, 90000)
 print(empleado3.nombre)
 print(empleado3.edad)
 print(empleado3.sueldo)
+
+#-------------Alumno: Natán Jabie-----------------
+
+class Aritmetica:     
+     """
+     DocString: Operación aritmetica - Suma de dos valores
+     """     
+     def __init__(self, opA, opB):
+          self.opA = opA
+          self.opB = opB
+          
+     #Suma (método)
+     def suma(self):
+               return self.opA + self.opB
+
+aritm = Aritmetica(15, 10)
+print(aritm.sumar())
+

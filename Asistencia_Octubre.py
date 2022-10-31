@@ -212,7 +212,9 @@ class Aritmetica:
 
 aritm = Aritmetica(15, 10)
 print(aritm.sumar())
-Po
+
+
+
 r hildaortiz 
 
 class Rectangulo : 

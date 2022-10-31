@@ -212,4 +212,62 @@ class Aritmetica:
 
 aritm = Aritmetica(15, 10)
 print(aritm.sumar())
+Po
+r hildaortiz 
 
+class Rectangulo : 
+    """ 
+    crear una clase llamado rectangulo, debe tener 2 atributos: 
+    altura y base, el nombre del metodo sera calcular, area = 
+    base * altura. pero la base y la altura deben ser ingresado por teclado 
+    y los objetos deben ser tres 
+    """ 
+    def __init__(self, altura, base): 
+        self.altura = altura 
+        self.base = base 
+    def area(self): 
+        return self.altura * self.base 
+print("calculamos el area de tres rectangulos") 
+i = 1 
+while i <= 3: 
+      print(f"ingrese los datos para el {i} rectangulo ") 
+      altura = int(input( "ingrese la altura ")) 
+      base = int(input("ingrese la base ")) 
+      are_rect = Rectangulo(altura, base) 
+      print(f'el Area del {i} rectangulo es {are_rect.area()}') 
+      i +=1 
+print("terminamos") 
+ 
+y la ejecución 
+
+ 
+
+"C:\Program Files\Python310\python.exe" C:/Users/ANDRES/Tecnicaturagit/python/lession6/Rectangulo.py 
+
+calculamos el area de tres rectangulos 
+
+ingrese los datos para el 1 rectangulo  
+
+ingrese la altura 5 
+
+ingrese la base 7 
+
+el Area del 1 rectangulo es 35 
+
+ingrese los datos para el 2 rectangulo  
+
+ingrese la altura 3 
+
+ingrese la base 5 
+
+el Area del 2 rectangulo es 15 
+
+ingrese los datos para el 3 rectangulo  
+
+ingrese la altura 7 
+
+ingrese la base 9 
+
+el Area del 3 rectangulo es 63 
+
+terminamos 

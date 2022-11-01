@@ -215,7 +215,8 @@ print(aritm.sumar())
 
 
 
-r hildaortiz 
+
+#-------------Alumna: Hilda Ortiz -----------------
 
 class Rectangulo : 
     """ 

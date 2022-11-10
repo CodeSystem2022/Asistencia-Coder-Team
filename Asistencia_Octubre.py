@@ -274,3 +274,36 @@ ingrese la base 9
 el Area del 3 rectangulo es 63 
 
 terminamos 
+
+
+#-------------------Alumno: NAZARENO MAYA --------------------
+
+class Persona:
+     def__init__(self, nombre, apellido, dni, edad, *args,**kwargs):
+          self.nombre = nombre
+          self.apellido = apellido
+          self.edad = edad
+          self.dni = dni
+          self.args = args
+          self.kwargs = kwargs
+     def mostrar_detalless(self):
+          print(f"la clase persona tiene los siguientes datos {self.nombre} {self.apellido} {self.edad} {self.dni} la direccion es: {self.args}, los datos importantes son {self.kwargs}")
+persona1 = Persona ("ariel", "benegas", 23453212, 43)
+print(persona1.nombre)
+print(persona1.apellido)
+print(persona1.edad)
+print(f"el objeto de la clase es: {persona1.nombre} {persona1.apellido} {persona1.edad}")
+persona2 = Persona("osvaldo", "gabiandini", 23422134, 44)
+print(f"el objeto de la clase es: {persona2.nombre} {persona2.apellido} su edad es {persona2.edad}
+persona1.nombre = "liliana"
+persona1.apellido = "bucca"
+persona1.edad = 39
+print(f"el objeto de la clase es: {persona1.nombre} {persona1.apellido} {persona1.edad}")
+persona1.mostrar_detalless()
+persona2.mostrar_detalless()
+persona1.telefono = "2604547237"
+print(f"este es el telefono de: {persona1.nombre} {persona1.telefono}"
+persona3 = Persona ("rogelio", "romero", 2345722, 23, "telefono", "25324684", altura:1.85, peso=85, cFavorito=verde
+persona3.mostrar_detalless()
+persona4 = Persona ("azul", "garcia", 345345667, 18, "telefono", "15373274", altura=1.67, peso=59, cFavorito=violeta)
+persona4.mostrar_detalless()

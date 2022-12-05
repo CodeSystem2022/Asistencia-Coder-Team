@@ -24,3 +24,39 @@ public class Ejercicio2 {
         System.out.println("\");
     }
 }
+
+
+// Gonzalo Quiroga Sassu -- Java
+/*
+Ejercicio 1: Leer 5 numeros, guardar los datos en el arreglo
+y luego mostrarlos en el mismo orden introducidos
+
+ */
+ 
+package arreglos_ejercicio_1;
+
+import java.util.Scanner;
+
+public class Arreglos_Ejercicio_1 {
+    public static void main(String[] args) {
+        Scanner entrada = new Scanner(System.in);
+        float[] arreglos = new float[5]; //
+        
+        System.out.println("Guardando los datos en el arreglo");
+        for(int i=0 ; i < 5; i++){
+            System.out.print((i+1)+". Digite un numero: ");
+            arreglos[i] = entrada.nextFloat(); // En este caso no hace falta conversion, pq anexa la informacion de entrada
+        }
+        
+        
+        System.out.println("\nImprimir los elementos del arreglo");
+        for(float i:arreglos){ // Usamos un "punto" for each, es un bucle que sirve
+            // para iterar los arreaglos. Tiene un solo campo donde ponemos el tipo
+            // de dato para el arreglo pj i o u, y luego : el Arreglo.
+            // Solo sirve para mostrar el erreglo.
+            System.out.print(i+" ");
+        }
+        
+        System.out.println("\n"); 
+    }    
+}

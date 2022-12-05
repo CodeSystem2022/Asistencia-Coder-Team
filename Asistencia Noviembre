@@ -60,3 +60,31 @@ public class Arreglos_Ejercicio_1 {
         System.out.println("\n"); 
     }    
 }
+
+// Diego F. Alvarez
+/* JavaScript
+
+//Ejercicio para medir la hora
+let hora = 04;
+let horario = "Mañana"
+let Madrugada = 00, Mañana = 07, Tarde = 13, Noche = 19 
+
+if(hora >= Madrugada && hora <= Mañana){
+    horario = "Madrugada";
+}
+else if(hora >= Mañana && hora <= Tarde){
+    horario = "Mañana";
+}
+else if(hora >= Tarde && hora <= Noche){
+    horario = "Tarde";
+}
+else if(hora >= Noche && hora <= Madrugada){
+    horario = "Noche";
+}
+else{
+    console.log("La hora digitada no existe ")
+}
+
+console.log("Son las "+hora+" de la "+horario) 
+
+*/

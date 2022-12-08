@@ -138,3 +138,41 @@ public class Arreglos_Ejercicio3 {
         System.out.println("La cantidad de ceros es: "+ conteo0);
 }
 }
+
+
+//Jabie Natan
+
+/*
+Ejercicio 4: Leer 10 números enteros, guardarlos en un arreglo. Debemos mostrarlos en el siguiente orden: el primero. el último, el segundo, el penúltimo, el tercero, etc.
+En java:
+*/
+
+import java.util.Scanner;
+package Ejercicio4;
+
+public class Ejercicio4 {
+    public static void main(String[] args) {
+        try (Scanner scanner = new Scanner(System.in)) {
+
+            int[] numeros = new int[10];
+            int aux = 0;
+            int aux2 = 0;
+
+            System.out.println("Introduce 10 números enteros:");
+
+            for (int i = 0; i < 10; i++) {
+                numeros[i] = scanner.nextInt();
+            }
+
+            for (int i = 0; i < 10; i++) {
+                if (i % 2 == 0) {
+                    System.out.println("El " + (i + 1) + "º número es: " + numeros[aux2]);
+                    aux2++;
+                } else {
+                    System.out.println("El " + (i + 1) + "º número es: " + numeros[9 - aux]);
+                    aux++;
+                }
+            }
+        }
+    }
+}

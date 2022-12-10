@@ -206,3 +206,40 @@ public class Ejercicio07 {
         }
     }
 }
+
+//nazareno maya - java
+
+Leer por teclado una tabla de 10 elementos numericos enteros y eliminar el elemento situado en la posicion dada sin dejar huecos.
+
+package arreglosejercicioporhacer4;
+
+import java.util.Scanner;
+
+public class Ejercicioporhacer4 {
+
+    public static void main(String[] args) {
+        Scanner entrada = new Scanner(System.in);
+        int arreglando[]  = new int [10];
+        int posicion, j = 0;
+        
+        for(int i = 0; i<10;i++){
+            System.out.println(i+ ".digite un numero para el arreglo");
+            arreglando [i] = entrada.nextInt();
+        }
+        System.out.println();
+        
+        do{
+            System.out.println("digite el numero que desea eliminar ");
+            posicion = entrada.nextInt();
+        }while(posicion <0|| posicion >9);
+        
+        for(int i = posicion;i<9;i++){
+            arreglando[i] = arreglando[i+1];
+        }
+        System.out.println("\nEl arreglo queda asi: ");
+        for (int i=0;i<9;i++){
+            System.out.print(arreglando[i]+" - ");
+        }
+        System.out.println();
+    } 
+}
